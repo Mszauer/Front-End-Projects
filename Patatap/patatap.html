@@ -10,13 +10,13 @@
 			background: black;
 		}
 		h1{
-			position:absolute;
 			text-align: center;
 			margin:0 auto;
 		}
 	</style>
 
 	<script type="text/paperscript" canvas="myCanvas">
+
 		var keyData = {
 			q: {
 				sound: new Howl({
@@ -203,7 +203,8 @@
 	</script>
 </head>
 <body>
+	<h1>Press any key A-Z to play a sound.</h1>
 	<canvas id="myCanvas" resize></canvas>
-	<h1>Press any key A-Z to begin. Please turn on sound as well.</h1>
+	<script type="text/javascript" src="patatap.js"></script>
 </body>
 </html>
